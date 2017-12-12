@@ -1,2 +1,4 @@
-# grub-theme-dev
-Manjaro's new GRUB theme 
+manjaro-grub-theme
+==================
+
+Manjaro's grub theme for install media ( Testing Purpose )
