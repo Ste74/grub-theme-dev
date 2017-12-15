@@ -11,6 +11,7 @@ terminal-top: "0"
 terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
+title-color: "white"
 
 + label {
     top = 20%
@@ -42,16 +43,6 @@ terminal-border: "0"
     selected_item_pixmap_style = "select_*.png"
 }
 
-+ vbox {
-    left = 50%-125
-    top = 80% 
-    width = 250
-    + label { width = 250 height = 16 align = "center" color = "#ffffff" font = "DejaVu Sans Regular 14" text = "[↵] Boot selected OS" }
-    + label { width = 250 height = 16 align = "center" color = "#ffffff" font = "DejaVu Sans Regular 14" text = "[↑ and ↓ Key] Navigation" }
-    + label { width = 250 height = 16 align = "center" color = "#ffffff" font = "DejaVu Sans Regular 14" text = "[E] Edit Selection" }
-    + label { width = 250 height = 16 align = "center" color = "#ffffff" font = "DejaVu Sans Regular 14" text = "[C] GRUB Commandline" }
-}
-
 + progress_bar {
     id = "__timeout__"
     left = 0
@@ -75,4 +66,18 @@ terminal-border: "0"
     align = "center"
     text = "@TIMEOUT_NOTIFICATION_SHORT@"
     bar_style = "progress_bar2_*.png"
+}
+
+# help bar at the bottom
++ hbox {
+    top = 100%-35
+    left = 13%
+    + label { text = "↑↓" color = "#87a556" }
+    + label { text = ":select       " color = "gainsboro" }
+    + label { text = "enter" color = "#87a556" }
+    + label { text = ":boot       " color = "gainsboro" }
+    + label { text = "e" color = "#87a556" }
+    + label { text = ":edit       " color = "gainsboro" }
+    + label { text = "c" color = "#87a556" }
+    + label { text = ":command-line" color = "gainsboro" }
 }
