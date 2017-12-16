@@ -11,7 +11,6 @@ terminal-top: "0"
 terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
-title-color: "white"
 
 + label {
     top = 20%
@@ -29,7 +28,7 @@ title-color: "white"
     #width = 250
     width = 75%
     top = 50%-125
-    height = 300
+    height = 400
     item_height = 33
     item_padding = 5
     icon_width = 32
@@ -37,7 +36,8 @@ title-color: "white"
     item_icon_space = 20
     item_spacing = 5
     item_font =  "DejaVu Sans Regular 16"
-    item_color = "#cccccc"
+    #item_color = "#cccccc"
+    item_color = "#FFA2A2"
     selected_item_font = "DejaVu Sans Bold 16"
     selected_item_color = "#ffffff"
     selected_item_pixmap_style = "select_*.png"
@@ -72,12 +72,12 @@ title-color: "white"
 + hbox {
     top = 100%-35
     left = 13%
-    + label { text = "↑↓" color = "#87a556" }
+    + label { text = "↑↓" color = "black" }
     + label { text = ":select       " color = "gainsboro" }
-    + label { text = "enter" color = "#87a556" }
+    + label { text = "enter" color = "black" }
     + label { text = ":boot       " color = "gainsboro" }
-    + label { text = "e" color = "#87a556" }
+    + label { text = "e" color = "black" }
     + label { text = ":edit       " color = "gainsboro" }
-    + label { text = "c" color = "#87a556" }
+    + label { text = "c" color = "black" }
     + label { text = ":command-line" color = "gainsboro" }
 }
