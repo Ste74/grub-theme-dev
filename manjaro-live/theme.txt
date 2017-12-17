@@ -17,7 +17,7 @@ terminal-border: "0"
     height = 35
     left = 0%
     width = 100%
-    text = "Welcome!"
+    text = "Welcome to Manjaro"
     align = "center"
     font = "DejaVu Sans Regular 48"
     color = "#ffffff"
@@ -41,6 +41,7 @@ terminal-border: "0"
     selected_item_font = "DejaVu Sans Bold 16"
     selected_item_color = "#ffffff"
     selected_item_pixmap_style = "select_*.png"
+    menu_pixmap_style = "menu_*.png"
 }
 
 + progress_bar {
@@ -68,16 +69,12 @@ terminal-border: "0"
     bar_style = "progress_bar2_*.png"
 }
 
-# help bar at the bottom
-+ hbox {
-    top = 100%-35
-    left = 13%
-    + label { text = "↑↓" color = "black" }
-    + label { text = ":select       " color = "gainsboro" }
-    + label { text = "enter" color = "black" }
-    + label { text = ":boot       " color = "gainsboro" }
-    + label { text = "e" color = "black" }
-    + label { text = ":edit       " color = "gainsboro" }
-    + label { text = "c" color = "black" }
-    + label { text = ":command-line" color = "gainsboro" }
++ vbox {
+    left = 50%-125
+    top = 80% 
+    width = 250
+    + label { width = 250 height = 16 align = "center" color = "#ffffff" font = "DejaVu Sans Regular 14" text = "[↵] Boot selected OS" }
+    + label { width = 250 height = 16 align = "center" color = "#ffffff" font = "DejaVu Sans Regular 14" text = "[↑ and ↓ Key] Navigation" }
+    + label { width = 250 height = 16 align = "center" color = "#ffffff" font = "DejaVu Sans Regular 14" text = "[E] Edit Selection" }
+    + label { width = 250 height = 16 align = "center" color = "#ffffff" font = "DejaVu Sans Regular 14" text = "[C] GRUB Commandline" }
 }
