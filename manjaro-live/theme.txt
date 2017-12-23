@@ -68,7 +68,7 @@ terminal-border: "0"
     font = "DejaVu Sans Regular 14"
     text_color = "#7f8c8d"
     align = "center"
-    text = "@TIMEOUT_NOTIFICATION_SHORT@"
+    text = "@TIMEOUT_NOTIFICATION_LONG@"
     bar_style = "progress_bar2_*.png"
 }
 
