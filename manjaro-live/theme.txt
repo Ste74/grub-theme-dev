@@ -24,9 +24,7 @@ terminal-border: "0"
 }
 
 + boot_menu {
-    #left = 15%
-    left = 0
-    align = "center"
+    left = 15%
     #width = 250
     width = 70%
     #top = 50%-125
@@ -42,7 +40,7 @@ terminal-border: "0"
     item_font =  "DejaVu Sans Regular 16"
     item_color = "#cccccc"
     #item_color = "#FFA2A2"
-    selected_item_font = "DejaVu Sans Regular 16"
+    selected_item_font = "DejaVu Sans Bold 16"
     selected_item_color = "#ffffff"
     selected_item_pixmap_style = "select_*.png"
     menu_pixmap_style = "menu_*.png"
