@@ -1,11 +1,11 @@
 title-text: ""
 title-font: "DejaVu Sans Regular 48"
-message-font: "DejaVu Sans Regular 16"
+message-font: "Terminus 16"
 message-color: "#7f8c8d"
 message-bg-color: "#4d4d4d"
 desktop-color: "#000000"
 desktop-image: "background.png"
-terminal-font: "DejaVu Sans Mono Regular 12"
+terminal-font: "Terminus 12"
 terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
@@ -37,10 +37,10 @@ terminal-border: "0"
     icon_height = 32
     item_icon_space = 20
     item_spacing = 5
-    item_font =  "DejaVu Sans Regular 16"
+    item_font =  "Terminus 16"
     item_color = "#cccccc"
     #item_color = "#FFA2A2"
-    selected_item_font = "DejaVu Sans Bold 16"
+    selected_item_font = "Terminus Bold 16"
     selected_item_color = "#ffffff"
     selected_item_pixmap_style = "select_*.png"
     menu_pixmap_style = "menu_*.png"
@@ -64,7 +64,7 @@ terminal-border: "0"
     width = 250
     height = 20
     show_text = true
-    font = "DejaVu Sans Regular 14"
+    font = "Terminus 14"
     text_color = "#ffffff"
     align = "center"
     text = "@TIMEOUT_NOTIFICATION_LONG@"
@@ -75,8 +75,8 @@ terminal-border: "0"
     left = 50%-125
     top = 80%
     width = 250
-    + label { width = 250 height = 20 align = "center" color = "#ffffff" font = "DejaVu Sans Regular 14" text = "[↵] Boot selected OS" }
-    + label { width = 250 height = 20 align = "center" color = "#ffffff" font = "DejaVu Sans Regular 14" text = "[↑ and ↓ Key] Navigation" }
-    + label { width = 250 height = 20 align = "center" color = "#ffffff" font = "DejaVu Sans Regular 14" text = "[E] Edit Selection" }
-    + label { width = 250 height = 20 align = "center" color = "#ffffff" font = "DejaVu Sans Regular 14" text = "[C] GRUB Commandline" }
+    + label { width = 250 height = 20 align = "center" color = "#ffffff" font = "Terminus 16" text = "[↵] Boot selected OS" }
+    + label { width = 250 height = 20 align = "center" color = "#ffffff" font = "Terminus 16" text = "[↑ and ↓ Key] Navigation" }
+    + label { width = 250 height = 20 align = "center" color = "#ffffff" font = "Terminus 16" text = "[E] Edit Selection" }
+    + label { width = 250 height = 20 align = "center" color = "#ffffff" font = "Terminus 16" text = "[C] GRUB Commandline" }
 }
