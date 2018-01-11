@@ -41,8 +41,8 @@ terminal-border: "0"
     item_color = "#cccccc"
     #item_color = "#FFA2A2"
     selected_item_font = "Terminus 16"
-    selected_item_color = "#ffffff"
-    selected_item_pixmap_style = "select_*.png"
+    selected_item_color = "#1ABB9B"
+    #selected_item_pixmap_style = "select_*.png"
     menu_pixmap_style = "menu_*.png"
 }
 
