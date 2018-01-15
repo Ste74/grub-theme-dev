@@ -67,7 +67,7 @@ terminal-border: "0"
     font = "Terminus 14"
     text_color = "#ffffff"
     align = "center"
-    text = "@TIMEOUT_NOTIFICATION_LONG@"
+    text = "@TIMEOUT_NOTIFICATION_MIDDLE@"
     bar_style = "progress_bar2_*.png"
 }
 
